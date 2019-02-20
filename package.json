@@ -29,7 +29,7 @@
 		"watch": "./node_modules/.bin/parcel watch src/index.html",
 		"build": "./node_modules/.bin/parcel build src/index.html",
 		"testserve": "./node_modules/.bin/jest --watch",
-		"test": "./node_modules/.bin/jest",
+		"test": "./node_modules/.bin/jest --passWithNoTests",
 		"coverage": "./node_modules/.bin/jest --coverage"
 	}
 }
