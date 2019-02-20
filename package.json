@@ -21,17 +21,15 @@
 	},
 	"jest": {
 		"setupTestFrameworkScriptFile": "./setupTests.js",
-		"coverageReporters": [
-			"json",
-			"html"
-		]
+		"coverageReporters": ["json", "html"]
 	},
 	"scripts": {
 		"guide": "./node_modules/.bin/parcel src/component-guide.html",
 		"serve": "./node_modules/.bin/parcel src/index.html",
 		"watch": "./node_modules/.bin/parcel watch src/index.html",
 		"build": "./node_modules/.bin/parcel build src/index.html",
-		"test": "./node_modules/.bin/jest --watch",
+		"testserve": "./node_modules/.bin/jest --watch",
+		"test": "./node_modules/.bin/jest",
 		"coverage": "./node_modules/.bin/jest --coverage"
 	}
 }
